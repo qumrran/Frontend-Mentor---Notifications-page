@@ -1,1 +1,120 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(205, 33%, 90%);
+}
+
+.commentsSection {
+  background-color: hsl(210, 60%, 98%);
+  min-width: 305px;
+  max-width: 730px;
+  padding: 24px 17px;
+}
+
+.commentsSection__heder {
+  display: flex;
+  align-items: center;
+}
+.commentsSection__heder__notifications {
+  font-size: 16px;
+  font-weight: 800;
+}
+.commentsSection__heder__counter {
+  flex-shrink: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  margin-left: 10px;
+  background-color: hsl(219, 85%, 26%);
+  padding: 1px 10px;
+  border-radius: 5px;
+  color: hsl(210, 60%, 98%);
+}
+.commentsSection__heder__markout {
+  color: hsl(219, 12%, 42%);
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.commentsSection__users {
+  display: flex;
+  margin: 8px 0;
+  padding: 8px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+.commentsSection__users__box {
+  display: flex;
+}
+.commentsSection__users__box__avatar {
+  width: 45px;
+  height: 45px;
+  margin-right: 8px;
+}
+.commentsSection__users__box2 {
+  color: hsl(219, 12%, 42%);
+  font-size: 15px;
+}
+.commentsSection__users__box2__name {
+  font-weight: 800;
+  color: hsl(224, 21%, 14%);
+  cursor: pointer;
+}
+.commentsSection__users__box2__action2 {
+  color: hsl(219, 85%, 26%);
+  font-weight: 800;
+  cursor: pointer;
+}
+.commentsSection__users__box2__action3 {
+  color: hsl(219, 12%, 42%);
+  font-weight: 600;
+  cursor: pointer;
+}
+.commentsSection__users__box2__redpoint {
+  display: none;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+}
+.commentsSection__users__box2__time {
+  color: hsl(219, 14%, 63%);
+  display: block;
+}
+.commentsSection__users__box2__comment {
+  margin-top: 12px;
+  display: block;
+  border: 2px solid hsl(219, 14%, 63%);
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.commentsSection__users__box2__img {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlighted {
+  background-color: hsl(205, 33%, 90%);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,118 @@
+@import "reset";
+@import "variables";
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: $light-grayish-blue-2;
+}
+
+.commentsSection {
+    background-color: $very-light-grayish-blue;
+    min-width: 305px;
+    max-width: 730px;
+    padding: 24px 17px;
+    
+}
+
+.commentsSection__heder {
+    display: flex;
+    align-items: center;
+    
+    &__notifications {
+        font-size: 16px;
+        font-weight: 800;
+    }
+    &__counter {
+        flex-shrink: 20px;
+        font-family: $outfit;
+        font-weight: 600;
+        margin-left: 10px;
+        background-color: $blue;
+        padding: 1px 10px;
+        border-radius: 5px;
+        color: $very-light-grayish-blue;
+        
+    }
+
+    &__markout {
+        color: $dark-grayish-blue;
+        margin-left: auto;
+        cursor: pointer;
+        
+    }
+}
+
+.commentsSection__users {
+    display: flex;
+    margin: 8px 0;
+    padding: 8px;
+    background-color: $white;
+    border-radius: 10px;
+    &__box {
+        display: flex;
+        &__avatar {
+            width: 45px;
+            height: 45px;
+            margin-right: 8px;
+        }
+    }
+    &__box2 {
+        color: $dark-grayish-blue;
+        font-size: 15px;
+        &__name {
+            font-weight: 800;
+            color: $very-dark-blue ;
+            cursor: pointer;
+        }
+        &__action2 {
+            color: $blue;
+            font-weight: 800;
+            cursor: pointer;
+        }
+        &__action3 {
+            color: $dark-grayish-blue;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        &__redpoint {
+            display: none;
+            width: 10px;
+            height: 10px;
+            margin-left: 5px;
+            background-color: $red;
+            border-radius: 50%;
+            
+        }
+        &__time {
+            color: $grayish-blue;
+            display: block;
+        }
+        &__comment {
+            margin-top: 12px;
+            display: block;
+            border: 2px solid $grayish-blue;
+            padding: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        &__img {
+            width: 40px;
+            height: 40px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+     
+}
+
+.highlighted {
+    background-color: $light-grayish-blue-2;
+}
